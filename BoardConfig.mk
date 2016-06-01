@@ -99,7 +99,7 @@ BOARD_NEEDS_VENDORIMAGE_SYMLINK := true
 
 BOARD_HAL_STATIC_LIBRARIES := libdumpstate.angler
 
-TARGET_RECOVERY_FSTAB = device/huawei/angler/fstab.angler
+TARGET_RECOVERY_FSTAB := device/huawei/angler/fstab.angler
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_RELEASETOOLS_EXTENSIONS := device/huawei/angler
 
